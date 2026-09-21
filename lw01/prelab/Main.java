@@ -1,4 +1,3 @@
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner scanner = new Scanner(new File("jobs.txt"));
+        Scanner scanner = new Scanner(Main.class.getResourceAsStream("jobs.txt"));
 
         List<PrintJob> jobs = new ArrayList<>();
 
