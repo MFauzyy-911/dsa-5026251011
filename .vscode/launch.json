@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "dsa-5026251011_3371c0d0"
+    },
+    {
+      "type": "java",
+      "name": "BankTransaction",
+      "request": "launch",
+      "mainClass": "BankTransaction",
+      "cwd": "${workspaceFolder}/lw02/prelab"
+    }
+  ]
+}
